@@ -1,0 +1,8 @@
+# robots.txt for Holy Guider (https://holyguider.com)
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Host & Sitemap
+Host: https://holyguider.com
+Sitemap: https://holyguider.com/sitemap.xml

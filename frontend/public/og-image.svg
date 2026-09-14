@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#262B30" />
+      <stop offset="60%" stop-color="#14171A" />
+      <stop offset="100%" stop-color="#0B0D0F" />
+    </radialGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8C374" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#9E7418" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGlow)" />
+
+  <!-- Ambient Golden Aura -->
+  <circle cx="600" cy="230" r="270" fill="url(#goldGlow)" />
+
+  <!-- Concentric Sacred Rings -->
+  <circle cx="600" cy="210" r="170" fill="none" stroke="#9E7418" stroke-width="1.5" stroke-opacity="0.3" />
+  <circle cx="600" cy="210" r="120" fill="none" stroke="#E8C374" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="4 6" />
+  <circle cx="600" cy="210" r="75" fill="none" stroke="#9E7418" stroke-width="2" stroke-opacity="0.7" />
+
+  <!-- Center Sacred Emblem -->
+  <circle cx="600" cy="210" r="22" fill="#9E7418" />
+  <circle cx="600" cy="210" r="8" fill="#FFF8E7" />
+  <path d="M600 110v40 M600 270v40 M500 210h40 M660 210h40" stroke="#E8C374" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.7" />
+  <path d="M530 140l28 28 M642 252l28 28 M530 280l28-28 M642 168l28-28" stroke="#9E7418" stroke-width="2" stroke-linecap="round" stroke-opacity="0.5" />
+
+  <!-- Title -->
+  <text x="600" y="415" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="68" font-weight="700" fill="#F4EADB" letter-spacing="2">
+    Holy Guider
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="470" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="22" font-weight="400" fill="#C5CCD1" letter-spacing="1">
+    AI Spiritual Companion Rooted in Timeless Sacred Wisdom
+  </text>
+
+  <!-- Domain & Scriptures -->
+  <text x="600" y="525" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="15" font-weight="700" fill="#E8C374" letter-spacing="3">
+    HOLYGUIDER.COM
+  </text>
+  <text x="600" y="560" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="13" font-weight="500" fill="#8B949E" letter-spacing="2">
+    BHAGAVAD GITA  •  THE QURAN  •  THE BIBLE  •  DHAMMAPADA  •  GURU GRANTH SAHIB
+  </text>
+</svg>

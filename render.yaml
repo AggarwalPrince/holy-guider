@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: holy-guider-ai
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /keep-alive
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: RAZORPAY_KEY_ID
+        sync: false
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
+      - key: AICREDITS_API_KEY
+        sync: false
+      - key: AICREDITS_BASE_URL
+        value: https://api.aicredits.in/v1
+      - key: AICREDITS_MODEL
+        value: google/gemini-2.5-flash-lite
