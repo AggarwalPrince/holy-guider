@@ -10,26 +10,26 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@react-oauth/google": "^0.13.5",
-    "canvas-confetti": "^1.9.3",
-    "clsx": "^2.1.1",
-    "framer-motion": "^11.2.10",
-    "lucide-react": "^0.395.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^7.18.3",
-    "tailwind-merge": "^2.3.0"
-  },
   "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.0",
     "autoprefixer": "^10.4.19",
-    "gray-matter": "^4.0.3",
-    "marked": "^18.0.14",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "vite": "^5.2.13"
   }
+  "dependencies": {
+  "@react-oauth/google": "^0.13.5",
+  "canvas-confetti": "^1.9.3",
+  "clsx": "^2.1.1",
+  "framer-motion": "^11.2.10",
+  "gray-matter": "^4.0.3",
+  "lucide-react": "^0.395.0",
+  "marked": "^18.0.14",
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1",
+  "react-router-dom": "^7.18.3",
+  "tailwind-merge": "^2.3.0"
+}
 }
