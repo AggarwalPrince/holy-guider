@@ -1,0 +1,9 @@
+﻿<svg xmlns=http://www.w3.org/2000/svg viewBox=0 0 64 64 width=64 height=64>
+  <rect width=64 height=64 rx=16 fill=#0D1013/>
+  <circle cx=32 cy=32 r=24 fill=none stroke=#9E7418 stroke-width=2 stroke-opacity=0.6/>
+  <circle cx=32 cy=32 r=17 fill=none stroke=#C89D3C stroke-width=1.5 stroke-opacity=0.8/>
+  <circle cx=32 cy=32 r=6 fill=#9E7418/>
+  <path d=M32 8v8 M32 48v8 M8 32h8 M48 32h8 stroke=#C89D3C stroke-width=2 stroke-linecap=round/>
+  <path d=M15 15l6 6 M43 43l6 6 M15 49l6-6 M43 21l6-6 stroke=#9E7418 stroke-width=1.5 stroke-linecap=round stroke-opacity=0.7/>
+  <circle cx=32 cy=32 r=2.5 fill=#FFF8E7/>
+</svg>
