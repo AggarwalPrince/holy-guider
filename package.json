@@ -1,15 +1,35 @@
 {
-  "name": "spiritual-helper",
-  "version": "1.0.0",
+  "name": "spiritual-ai-frontend",
   "private": true,
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "install:all": "npm install --prefix backend && npm install --prefix frontend",
-    "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend",
-    "start": "npm start --prefix backend",
-    "dev:backend": "npm run dev --prefix backend",
-    "dev:frontend": "npm run dev --prefix frontend"
+    "dev": "vite",
+    "blog": "node scripts/build-blog.js",
+    "prebuild": "node scripts/build-blog.js",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "engines": {
-    "node": ">=18.0.0"
+  "dependencies": {
+    "@react-oauth/google": "^0.13.5",
+    "canvas-confetti": "^1.9.3",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.10",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.395.0",
+    "marked": "^18.0.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.3",
+    "tailwind-merge": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.2.13"
   }
 }
