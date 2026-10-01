@@ -43,3 +43,8 @@ The disciplined mind, Krishna says, stays even through heat and cold, joy and di
 If you're sitting with something specific right now — a decision, a worry, a loss — you can describe it in your own words and receive a reflection grounded in the Gita (or eight other traditions) instead of searching through verses yourself.
 
 **[Ask Holy Guider →](/select-religion)**
+
+**Related reading:**
+
+- [Scripture for Anxiety: Calming Teachings from Hinduism, Christianity, Buddhism and Islam](/blog/scripture-for-anxiety-across-religions/)
+- [How to Start a Daily Spiritual Reflection Practice](/blog/how-to-start-a-daily-spiritual-reflection-practice/)

@@ -39,3 +39,8 @@ The habit that survives isn't the one done perfectly — it's the one you return
 If you want a starting question rooted in a specific tradition rather than picking one out of the air, you can describe what's on your mind and receive a short, focused reflection to sit with.
 
 **[Start a reflection →](/select-religion)**
+
+**Related reading:**
+
+- [7 Bhagavad Gita Teachings for Anxiety and Overthinking](/blog/bhagavad-gita-quotes-for-anxiety/)
+- [Scripture for Anxiety: Calming Teachings from Hinduism, Christianity, Buddhism and Islam](/blog/scripture-for-anxiety-across-religions/)
