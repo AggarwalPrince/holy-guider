@@ -137,7 +137,7 @@ function pageShell({ title, description, canonical, ogType = "website", jsonLd =
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         line-height: 1.65;
       }
-      .wrap { max-width: 700px; margin: 0 auto; padding: 48px 24px 96px; }
+      .wrap { width: 100%; max-width: 1200px; margin: 0 auto; padding: 48px 24px 96px; }
       .top-link { display: inline-block; margin-bottom: 32px; color: var(--brass); text-decoration: none; font-weight: 600; font-size: 0.9rem; }
       .top-link:hover { text-decoration: underline; }
       h1 { font-family: 'Lora', Georgia, serif; font-size: 2.1rem; line-height: 1.25; margin: 0 0 8px; }
